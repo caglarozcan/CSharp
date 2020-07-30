@@ -12,7 +12,7 @@ namespace Library.Helpers
 		{
 			int counter = 1;
 			string newName = name, extension = "", tempName = "";
-
+			
 			string[] splitName = name.Split('.');
 
 			extension = splitName.Last();
