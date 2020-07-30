@@ -17,7 +17,7 @@ namespace Library.Helpers
 
 			extension = splitName.Last();
 
-			tempName = Slug(String.Join("", splitName.Take(splitName.Length - 1)));
+			tempName = String.Join("", splitName.Take(splitName.Length - 1));
 
 			newName = tempName;
 
